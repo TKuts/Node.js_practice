@@ -1,0 +1,215 @@
+{
+	"products": [
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/233467004.jpg",
+			"src_hover": "https://content1.rozetka.com.ua/goods/images/big_tile/231490107.jpg",
+			"title": " Ноутбук Acer Nitro 5 AN515-57-54K7 (NH.QESEU.003) Shale Black ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"prices": {
+				"retail": "37 999",
+				"sale": " 29 999",
+				"currency": "₴"
+			},
+			"status": {
+				"status": "available",
+				"text": "Есть в наличии"
+			},
+			"features_image": [
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187292024.jpg",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187288532.png",
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187288562.png",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187287994.png"
+			],
+			"features": [
+				"Экран 15.6” IPS (1920x1080) Full HD 144 Гц матовый",
+				"Intel Core i5-11400H (2.7 - 4.5 ГГц)",
+				"RAM 16 ГБ",
+				"SSD 512 ГБ",
+				"nVidia GeForce RTX 3050 Ti",
+				"4 ГБ",
+				"без ОД",
+				"LAN",
+				"Wi-Fi",
+				"Bluetooth",
+				"веб-камера",
+				"без ОС",
+				"2.2 кг",
+				"черный"
+			]
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/195314565.jpg",
+			"src_hover": "https://content2.rozetka.com.ua/goods/images/big_tile/195314570.jpg",
+			"title": " Ноутбук ASUS Laptop 14 X409FA-BV593 (90NB0MS2-M09690) Star Grey ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"prices": {
+				"retail": "12 999",
+				"sale": " 11 499",
+				"currency": "₴"
+			},
+			"status": {
+				"status": "available",
+				"text": "Есть в наличии"
+			},
+			"features_image": [
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187288486.png",
+				"https://content.rozetka.com.ua/goods_tags/images/original/187288557.png",
+				"https://content.rozetka.com.ua/goods_tags/images/original/187287357.png",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187287996.png"
+			],
+			"features": [
+				"Экран 14' (1366x768) WXGA HD матовый",
+				"Intel Core i3-10110U (2.1 - 4.1 ГГц)",
+				"RAM 4 ГБ",
+				"SSD 256 ГБ",
+				"Intel UHD Graphics",
+				"без ОД",
+				"Wi-Fi",
+				"Bluetooth",
+				"веб-камера",
+				"без ОС",
+				"1.6 кг",
+				"серый"
+			]
+		},
+		{
+			"src": "https://content1.rozetka.com.ua/goods/images/big_tile/144249716.jpg",
+			"src_hover": "https://content1.rozetka.com.ua/goods/images/big_tile/144249735.jpg",
+			"title": " Ноутбук Apple MacBook Air 13' M1 256GB 2020 (MGN63) Space Gray ",
+			"label": {
+				"status": "top",
+				"text": "ТОП ПРОДАЖ"
+			},
+			"colors": [
+				"background-color: rgb(51, 51, 51)",
+				"background-color: rgb(204, 204, 204)",
+				"background-color: rgb(255, 204, 102)"
+			],
+			"prices": {
+				"price": "33 999",
+				"currency": "₴"
+			},
+			"status": {
+				"status": "available",
+				"text": "Есть в наличии"
+			},
+			"bonuses": "+324 бонусных",
+			"features_image": [
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187292106.png",
+				"https://content.rozetka.com.ua/goods_tags/images/original/187288557.png",
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187287359.png"
+			],
+			"features": [
+				"Экран 13.3' Retina (2560x1600) WQXGA, глянцевый",
+				"Apple M1",
+				"RAM 8 ГБ",
+				"SSD 256 ГБ",
+				"Apple M1 Graphics",
+				"Wi-Fi",
+				"Bluetooth",
+				"macOS",
+				"Big Sur",
+				"1.29 кг",
+				"серый"
+			]
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/178061189.jpg",
+			"src_hover": "https://content.rozetka.com.ua/goods/images/big_tile/178061191.jpg",
+			"title": " Ноутбук Lenovo V15-ADA (82C70010RA) Iron Grey ",
+			"label": {
+				"status": "rozetka",
+				"text": "ТОЛЬКО В РОЗЕТКЕ"
+			},
+			"colors": [
+				"background-color: rgb(51, 51, 51)",
+				"background-color: rgb(204, 204, 204)",
+				"background-color: rgb(255, 204, 102)"
+			],
+			"prices": {
+				"retail": "15 999",
+				"sale": "13 699",
+				"currency": "₴"
+			},
+			"status": {
+				"status": "limited",
+				"text": "Заканчивается"
+			},
+			"bonuses": "+324 бонусных",
+			"features_image": [
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187287798.jpg",
+				"https://content.rozetka.com.ua/goods_tags/images/original/187288557.png",
+				"https://content.rozetka.com.ua/goods_tags/images/original/187287357.png",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187287996.png"
+			],
+			"features": [
+				"Экран 15.6' TN (1920x1080) Full HD, матовый",
+				"AMD Ryzen 3 3250U (2.6 - 3.5 ГГц)",
+				"RAM 8 ГБ",
+				"SSD 256 ГБ",
+				"AMD Radeon Graphics",
+				"без ОД",
+				"Wi-Fi",
+				"Bluetooth",
+				"веб-камера",
+				"DOS",
+				"1.85 кг",
+				"серый"
+			]
+		},
+		{
+			"src": "https://content2.rozetka.com.ua/goods/images/big_tile/223511619.jpg",
+			"src_hover": "https://content.rozetka.com.ua/goods/images/big_tile/223511625.jpg",
+			"title": " Ноутбук ASUS ZenBook 14 UM425QA-KI080 (90NB0TV1-M02230) Pine Grey ",
+			"label": {
+				"status": "sale",
+				"text": "АКЦИЯ"
+			},
+			"prices": {
+				"retail": "29 999",
+				"sale": "26 999",
+				"currency": "₴"
+			},
+			"status": {
+				"status": "limited",
+				"text": "Заканчивается"
+			},
+			"features_image": [
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187287800.jpg",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187288532.png",
+				"https://content2.rozetka.com.ua/goods_tags/images/original/187288562.png",
+				"https://content1.rozetka.com.ua/goods_tags/images/original/187287994.png"
+			],
+			"features": [
+				"Экран 14' IPS (1920x1080) Full HD, матовый",
+				"AMD Ryzen 7 5800H (3.2 - 4.4 ГГц)",
+				"RAM 16 ГБ",
+				"SSD 512 ГБ",
+				"AMD Radeon Graphics",
+				"без ОД",
+				"Wi-Fi",
+				"Bluetooth",
+				"веб-камера",
+				"без ОС",
+				"1.3 кг",
+				"серый"
+			]
+		}
+	],
+	"users": [
+		{
+			"email": "root@gmail.com",
+			"password": "123456"
+		},
+		{
+			"email": "admin@gmail.com",
+			"password": "admin"
+		}
+	]
+}
