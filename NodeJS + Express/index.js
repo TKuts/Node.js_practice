@@ -4,21 +4,14 @@ const path = require("node:path");
 
 const { products, users } = require("./bd/data.json");
 
-const authentication = ({ email, password }) => {
-  let usersData = JSON.parse(users);
-  usersData.forEach((user) => {
-    if (user.email === email && user.password === password) {
-      console.log("Work");
-    } else {
-      console.log("Filed");
-    }
-  });
+const authorization = ({ email, password }) => {
+  return Boolean(
+    users.find((item) => item.email == email && item.password == password)
+  );
 };
 
 app.use(express.static("./public"));
 
-// parsel json
-app.use(express.json());
 // parsel form data
 app.use(express.urlencoded({ extended: false }));
 
@@ -45,20 +38,27 @@ app.get("/about", (req, res) => {
   );
 });
 
-// app.post("/api/authorization", async (req, res) => {
-//   const data = await { email: req.body.email, password: req.body.password };
+app.post("/api/authorization", (req, res) => {
+  const isLogin = authorization(req.body);
 
-//   authentication(data);
+  if (isLogin) {
+    res.redirect("/product");
+  }
+  res.redirect("/");
 
-//   res.status(200).json({ success: true });
-// });
+  //   const data = await { email: req.body.email, password: req.body.password };
+
+  //   authentication(data);
+
+  //   res.status(200).json({ success: true });
+});
 
 app.get("/api/products", (req, res) => {
-  res.status(200).json(products);
+  res.status(200).json({ success: true, data: products });
 });
 
 app.all("*", (req, res) => {
-  res.status(404).send("	<h1>Resource not found</h1>");
+  res.status(404).send("<h1>Resource not found</h1>");
 });
 
 app.listen(PORT, () => console.log(`Start server on port ${PORT}...`));
