@@ -1,0 +1,14 @@
+.g-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(3,37,65, 1);
+	min-height: 64px;
+	width: 100%;
+
+	.copywriting {
+		font-size: 16px;
+		font-weight: 400;
+		color: #fff;
+	}
+}

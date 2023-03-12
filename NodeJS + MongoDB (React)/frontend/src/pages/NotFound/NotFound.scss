@@ -1,0 +1,31 @@
+.page-notfound {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-color: #fff;
+	background-image: url("images/img.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #0a0919;
+		opacity: 0.8;
+	}
+
+	.notfound-text {
+		position: relative;
+		z-index: 2;
+		font-size: 200px;
+		color: #fff;
+	}
+}

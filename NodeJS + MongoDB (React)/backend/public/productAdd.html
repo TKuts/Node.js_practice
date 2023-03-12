@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="icon" href="/favicon.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="theme-color" content="#000000"/>
+	<meta
+			name="description"
+			content="Product app"
+	/>
+	<title>NodeJS App</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="g-header d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+	<div class="my-2" style="margin-right: auto">
+		<a href="/" class="logo" style="display: block; width: 48px" ><img src="/logo.svg" alt="logo"/></a>
+	</div>
+	<nav class="my-2 my-md-0 mr-md-3">
+		<a class="p-2 text-dark" href="/product">Продукты</a>
+		<a class="p-2 text-dark" href="/add">Добавить продукт</a>
+	</nav>
+	<a class="btn btn-outline-primary" href="/">Войти</a>
+</header>
+<main class="g-content">
+	<div class="container">
+		<div class="row-wrapper">
+			<p class="fs-2">Добавить новый продукт</p>
+			<form action="/api/products" method="POST" class="form-add">
+
+				<div class="mb-3">
+					<label class="form-item">
+						<span class="form-label"> URL картинки </span>
+						<input type="text" class="form-control" name="src" placeholder="url" required>
+					</label>
+				</div>
+				<div class="mb-3">
+					<label class="form-item">
+						<span class="form-label"> Название продукта </span>
+						<input type="text" class="form-control" name="title" placeholder="title" required>
+					</label>
+				</div>
+				<div class="mb-3 form-item-group">
+					<label class="form-item">
+						<span class="form-label"> Цена Продукта </span>
+						<input type="number" class="form-control" name="priceRetail" placeholder="price" required min="1">
+					</label>
+					<label class="form-item">
+						<span class="form-label"> Sale % </span>
+						<input type="number" class="form-control" name="priceSale" placeholder="%" required min="1">
+					</label>
+					<label class="form-item">
+						<span class="form-label"> Статус </span>
+						<select class="form-control" name="status">
+							<option name="" value="" disabled>Статус</option>
+							<option name="top" value="ТОП ПРОДАЖ">ТОП ПРОДАЖ</option>
+							<option name="rozetka" value="ТОЛЬКО В РОЗЕТКЕ">ТОЛЬКО В РОЗЕТКЕ</option>
+							<option name="sale" value="АКЦИЯ">АКЦИЯ</option>
+							<option name="new" value="НОВИНКА">НОВИНКА</option>
+							<option name="bests" value="ХИТ ПРОДАЖИ">ПРОДАЖИ</option>
+						</select>
+					</label>
+
+				</div>
+				<button class="btn btn-primary" type="submit">Добавить продукт</button>
+			</form>
+		</div>
+	</div>
+</main>
+<!-- javascript -->
+<script src="./index.js"></script>
+</body>
+</html>

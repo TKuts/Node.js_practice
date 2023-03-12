@@ -1,0 +1,27 @@
+.user-info {
+	.list-group-item {
+		display: flex;
+		align-items: center;
+
+		.label {
+			padding: 16px;
+			box-sizing: border-box;
+			max-width: 250px;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.info {
+			padding: 16px;
+			box-sizing: border-box;
+			font-size: 24px;
+		}
+
+		.favorites-count {
+			display: inline-block;
+			padding: 0 16px;
+			font-size: 16px;
+			color: #e91e63
+		}
+	}
+}

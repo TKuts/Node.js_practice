@@ -1,0 +1,2 @@
+export {selectProductsData,	selectShoppingCart,	selectFavorite,	selectLoader, selectStateProducts} from './products.selectors'
+export {selectAuth, selectAuthLoader, selectUser, selectAuthUserToken} from './auth.selectors'

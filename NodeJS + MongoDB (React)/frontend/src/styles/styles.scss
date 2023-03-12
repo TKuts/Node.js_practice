@@ -1,0 +1,25 @@
+.page__wrapper {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	min-height: 100vh;
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+	}
+}
+
+
+[src*=".svg"] {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+	margin: 0;
+	border: 0;
+}
